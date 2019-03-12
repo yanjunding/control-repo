@@ -2,7 +2,7 @@ class profile::r10k {
   class {'r10k':
     remote => 'https://github.com/yanjunding/control-repo',
    }
-   class {'r10k::webhock::config':
+   class {'r10k::webhook::config':
     use_mcollective => false,
     enable_ssl      => false,
    }
