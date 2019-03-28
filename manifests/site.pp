@@ -1,3 +1,6 @@
-node file {'/tmp/abc':
-  ensure => present,
+node default {
+  file {'/tmp/abc':
+    ensure => file,
+    content => 'how is it',
+    }
  }
