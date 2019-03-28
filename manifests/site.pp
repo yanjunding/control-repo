@@ -1,3 +1,3 @@
-node puppet.local {
-  include role::master
+node file {'/tmp/abc':
+  ensure => present,
  }
