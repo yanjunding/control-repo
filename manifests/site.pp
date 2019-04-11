@@ -1,6 +1,6 @@
 node default {
   file {'/tmp/abc':
     ensure => file,
-    content => 'how is it',
+    content => 'how is it<BR> Boy',
     }
  }
